@@ -104,10 +104,9 @@ python3 client.py
 └── README.md          # This file
 ```
 
+## Technical details
 
 ```
-
-## Technical details 
 sequenceDiagram
     Client->>Server: Connect (TLS Handshake)
     Server->>Client: Request username
