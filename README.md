@@ -104,6 +104,21 @@ python3 client.py
 └── README.md          # This file
 ```
 
+
+```
+
+## Technical details 
+sequenceDiagram
+    Client->>Server: Connect (TLS Handshake)
+    Server->>Client: Request username
+    Client->>Server: Send username
+    Server->>Client: Request password
+    Client->>Server: Send password
+    Server->>Database: Verify credentials
+    Database->>Server: Return auth status
+    Server->>Client: Send auth result
+```
+
 ---
 
 ##  Additional Notes
