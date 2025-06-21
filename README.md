@@ -99,6 +99,8 @@ python3 client.py
 ├── server.log         # Server log file
 ├── cert.pem           # TLS certificate
 ├── key.pem            # TLS private key
+├── requirements.txt   # Requirements lib
+├── venv-sctp/         # virtual environment        
 └── README.md          # This file
 ```
 
