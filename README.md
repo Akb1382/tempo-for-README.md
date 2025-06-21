@@ -60,7 +60,7 @@ pip install pysctp
 openssl req -X509 -newkey rsa:4096 -keyout key.pm -out cert.pem -days 365 -nodes
 ```
 
-### Creat Users
+### Create Users
 Run the `create_users.py` file to create users with their roles.
 All user data will be saved in the `users.json` file.
 
